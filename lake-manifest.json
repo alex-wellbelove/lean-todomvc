@@ -1,0 +1,34 @@
+{"version": 5,
+ "packagesDir": "lake-packages",
+ "packages":
+ [{"path":
+   {"opts": {},
+    "name": "LeanServer",
+    "inherited": false,
+    "dir": "./../lean_server"}},
+  {"git":
+   {"url": "https://github.com/EdAyers/ProofWidgets4",
+    "subDir?": null,
+    "rev": "44e6673a20fc0449d003983d1e1f472df40f7107",
+    "opts": {},
+    "name": "proofwidgets",
+    "inputRev?": "v0.0.15",
+    "inherited": true}},
+  {"path":
+   {"opts": {},
+    "name": "Socket",
+    "inherited": true,
+    "dir": "./../lean_server/./../Socket.lean"}},
+  {"git":
+   {"url": "https://github.com/leanprover/std4",
+    "subDir?": null,
+    "rev": "e8c27f7d90ee71470558efd1bc197fe55068c748",
+    "opts": {},
+    "name": "std",
+    "inputRev?": "main",
+    "inherited": true}},
+  {"path":
+   {"opts": {},
+    "name": "LeanSqlite",
+    "inherited": true,
+    "dir": "./../lean_server/./../lean_sqlite"}}]}
